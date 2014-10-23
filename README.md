@@ -8,7 +8,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-Overall Steps
+<b>Overall Steps<b /><br />
 Step 1: Download data and unzip<br />
 Step 2: Determine Relevant Features Required<br />
 Step 3: Read Training and Test Data and (1) filtering for relevant features, (2) placing appropriate column names<br />
