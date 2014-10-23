@@ -40,4 +40,4 @@ for (rowcount in 1:nrow(labels)) {
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 output<-aggregate(final[,3:ncol(final)], by=list(activity= final[,2], subjectLabel=final[,1]), mean)
 
-write.table(test,row.name=FALSE,file="rawdata/output.txt")
+write.table(output,row.name=FALSE,file="rawdata/output.txt")
