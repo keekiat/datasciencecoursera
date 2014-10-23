@@ -9,10 +9,10 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 Overall Steps
-Step 1: Download data and unzip
-Step 2: Determine Relevant Features Required
-Step 3: Read Training and Test Data and (1) filtering for relevant features, (2) placing appropriate column names
-Step 4: Combine both test and training data
-Step 5:  Uses descriptive activity names to name the activities in the data set
-Step 6: Aggregate (group by subject and activity), applying mean
+Step 1: Download data and unzip<br />
+Step 2: Determine Relevant Features Required<br />
+Step 3: Read Training and Test Data and (1) filtering for relevant features, (2) placing appropriate column names<br />
+Step 4: Combine both test and training data<br />
+Step 5:  Uses descriptive activity names to name the activities in the data set<br />
+Step 6: Aggregate (group by subject and activity), applying mean<br />
 Step 7: Write results out 
