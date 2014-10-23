@@ -14,14 +14,14 @@ features<-read.table("rawdata/UCI HAR Dataset/features.txt")
 meanSD<-grep("mean()|std()", features$V2)
 
 #read training data
-trainX<-read.table("rawdata//UCI HAR Dataset/train/X_train.txt", col.names = features$V2)
+trainX<-read.table("rawdata//UCI HAR Dataset/train/X_train.txt", col.names = features$V2, check.names=FALSE)
 trainY<-read.table("rawdata//UCI HAR Dataset/train/y_train.txt", col.names = "activity")
 trainSubject<-read.table("rawdata//UCI HAR Dataset/train/subject_train.txt",col.names = "subjectLabel")
 trainXReq<-trainX[,meanSD]
 training<-cbind(trainSubject,trainY,trainXReq)
 
 #read test data
-testX<-read.table("rawdata//UCI HAR Dataset/test/X_test.txt", col.names = features$V2)
+testX<-read.table("rawdata//UCI HAR Dataset/test/X_test.txt", col.names = features$V2, check.names=FALSE)
 testY<-read.table("rawdata//UCI HAR Dataset/test/y_test.txt", col.names = "activity")
 testSubject<-read.table("rawdata//UCI HAR Dataset/test/subject_test.txt",col.names = "subjectLabel")
 testXReq<-testX[,meanSD]
